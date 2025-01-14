@@ -1,14 +1,31 @@
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-a img {
-    width: 30px;
-    
+body {
+  background-color: #121212;
+  color: #fff;
+  margin: 0;
+  padding: 0;
 }
 
-.artist-img{
-    height: 300px;
-    width: 100%;
-    object-fit: cover;
+.list-group-item{
+  background-color: dimgrey;
+  color: #fff;
+}
+header {
+  background-color: #1db954;
+}
+
+header .nav-link {
+  color: #fff;
+}
+
+header .nav-link:hover {
+  color: #121212;
+}
+
+h3,
+h2 {
+  color: #1db954;
 }
