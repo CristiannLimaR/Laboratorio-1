@@ -1,0 +1,100 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: rgb(35, 55, 109) !important;
+  }
+  
+  header {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo img {
+    width: 150px;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    position: relative; 
+    z-index: 2;
+  }
+  
+  header nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Submenú */
+  nav ul li {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    padding: 10px;
+    color: #000;
+    display: block;
+  }
+  
+  nav ul li .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f0f0f0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    z-index: 3;
+  }
+  
+  nav ul li:hover .submenu {
+    display: block;
+  }
+  
+  nav ul li .submenu li {
+    padding: 10px;
+  }
+  
+  nav ul li .submenu li a {
+    color: #000;
+  }
+  
+  nav ul li .submenu li a:hover {
+    color: #0073e6;
+  }
+  
+  /* Carrusel */
+  .carousel-inner img {
+    width: 100%;
+    height: auto;
+  }
+  
+
+  .carousel {
+    z-index: 1; 
+  }
+
+  
+  
